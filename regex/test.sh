@@ -1,10 +1,7 @@
-text='A SDAS DD'
-#regex=/([SDAS])/
+#!/bin/sh
 
-echo $text
+regex="\W"
 
-val=10
-
-if [ $val -eq 10 ] 
+if [[ $1 == $regex ]]
 then echo "true"
 fi
